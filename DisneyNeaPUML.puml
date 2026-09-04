@@ -1,0 +1,227 @@
+@startuml
+class DatabaseConnect.Visitor {
+- int VisitorID
+- String FirstName
+- String LastName
+- String PhoneNumber
+- String email
++ int VisitorID()
++ String FirstName()
++ String LastName()
++ String PhoneNumber()
++ String email()
+}
+
+
+class DatabaseConnect.DatabaseConnect {
+- {static} Connection conn
+- ArrayList<Visitor> visitors
+- ArrayList<Booking> bookings
+- ArrayList<Tickets> tickets
+- ArrayList<Purchase> purchases
+- ArrayList<Attraction> attractions
++ {static} void main(String[])
++ boolean isNumeric(String)
++ void close()
++ boolean DjikstraPathAndDistance()
++ boolean displayVisitor()
++ boolean displayBooking()
++ boolean displayPurchase(int)
++ boolean displayAttractions(String)
++ boolean displayTicketPrices()
++ boolean update()
++ int AddVisitor()
++ boolean AddBooking()
++ boolean updateVisitor()
++ boolean updateBooking()
++ String validType()
++ String VticketType()
++ String validNumber()
++ String validEmail()
++ boolean deleteRecord()
++ boolean AddPayment(int,String)
++ boolean AddReview()
++ boolean Discounts()
+}
+
+
+class DatabaseConnect.LinkedList {
+- Element front
++ Object[] asArray()
++ void append(int,int)
++ ArrayList<Element> getDestNodes()
+}
+
+
+class DatabaseConnect.Djikstra {
++ String Path(int,Graph,int)
++ int pathLength(int,Graph,int)
+}
+
+class DatabaseConnect.Pair {
+- int sourceNode
+- LinkedList list
++ void SetSourceNode(int)
++ LinkedList List()
++ int SourceNode()
++ void SetList(LinkedList)
+}
+
+
+class DatabaseConnect.Route {
+- int SourceID
+- int NextID
+- int distance
++ int SourceID()
++ int NextID()
++ int distance()
+}
+
+
+class DatabaseConnect.Attraction {
+- int AttractionID
+- String AttractionName
+- String Description
+- String Type
+- int Duration
++ int AttractionID()
++ String AttractionName()
++ String Description()
++ String Type()
++ float Duration()
+}
+
+
+class DatabaseConnect.Review {
+- int ReviewID
+- int VisitorID
+- int AttractionID
+- int Rating
+- String Comment
+- Date Rdate
++ int ReviewID()
++ int VisitorID()
++ int AttractionID()
++ int Rating()
++ String Comment()
++ Date Rdate()
+}
+
+
+class DatabaseConnect.Element {
+- int destnode
+- int weight
+- Element next
++ int DestNode()
++ int Weight()
++ void DestNode(int)
++ void Weight(int)
++ Element Next()
++ void Next(Element)
+}
+
+
+class DatabaseConnect.Hashing {
+- int MAX_SIZE
+- int length
+- Pair[] hashtable
+- int[] parentNode
++ {static} void main(String[])
++ String asString()
++ void add(int,LinkedList)
++ LinkedList item(int)
++ void delete(int)
++ boolean contains(int)
++ int length()
++ int maxSize()
++ Pair[] getHashtable()
++ boolean isEmpty()
++ Pair getPair(int)
++ ArrayList<Element> setDestNodes(int)
++ void setParentNode(int,int)
++ int getParent(int)
+}
+
+
+class DatabaseConnect.Purchase {
+- int PurchaseID
+- int BookingID
+- float TotalAmount
+- String Method
+- String PurchaseDate
++ int PurchaseID()
++ int BookingID()
++ float TotalAmount()
++ String Method()
++ String PurchaseDate()
+}
+
+
+class DatabaseConnect.PriorityQueue {
+~ ArrayList<Node> queue
+~ Node front
+~ Node back
+~ int count
++ void add(int,int)
++ int pop()
++ Node popNode()
++ void remove(int)
++ boolean isEmpty()
++ Node Front()
++ Node Rear()
++ void printQueue()
++ boolean contains(int)
++ Node getNode(int)
++ void changePriority(int,int)
++ int getDistance(int)
+}
+
+
+class DatabaseConnect.Tickets {
+- String Type
+- float Price
++ String Type()
++ float Price()
+}
+
+
+class DatabaseConnect.Node {
+~ int value
+~ int priority
+~ Node next
++ int Priority()
++ int Value()
++ Node Next()
++ void SetPriority(int)
++ void SetValue(int)
++ void setNext(Node)
+}
+
+
+class DatabaseConnect.Graph {
+~ Hashing graph
++ void add(int,int,int)
++ int len()
++ String asString()
++ ArrayList<Integer> getNodes()
++ ArrayList<Element> setDestNodes(int)
+}
+
+
+class DatabaseConnect.Booking {
+- int BookingID
+- int VisitorID
+- String BookingType
+- String TicketType
+- String Arrival
+- String BookingDate
++ int VisitorID()
++ int BookingID()
++ String BookingType()
++ String TicketType()
++ String Arrival()
++ String BookingDate()
+}
+
+
+@enduml
