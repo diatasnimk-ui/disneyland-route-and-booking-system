@@ -37,7 +37,7 @@ Visitor table <br>
 | **before**                 |                         **after** | <br>
 
 <img width="45%" height="50%" alt="Screenshot 2026-09-07 125833" src="https://github.com/user-attachments/assets/8dbdb9cb-80ec-4d40-92ed-62069e9bb050" />
- | <img width="45%" height="50%" alt="image" src="https://github.com/user-attachments/assets/dfd03da1-a4f3-48f2-b56a-63944e16195b" />
+ | <img width="45%" height="50%" alt="image" src="https://github.com/user-attachments/assets/dfd03da1-a4f3-48f2-b56a-63944e16195b" /> <br>
 
 
 
@@ -45,7 +45,12 @@ Visitor table <br>
 Purchase table <br>
 | **before**                 |                         **after** | <br>
 
-<img width="45%" height="50%" alt="Screenshot 2026-09-07 125930" src="https://github.com/user-attachments/assets/49e17c49-11b5-44de-92e3-da249da1deac" /> | <img width="45%" height="50%" alt="Screenshot 2026-09-07 130655" src="https://github.com/user-attachments/assets/f976c92f-e5b8-40f6-955a-801f734ee813" />
+<img width="45%" height="50%" alt="Screenshot 2026-09-07 125930" src="https://github.com/user-attachments/assets/49e17c49-11b5-44de-92e3-da249da1deac" /> | <img width="45%" height="50%" alt="Screenshot 2026-09-07 130655" src="https://github.com/user-attachments/assets/f976c92f-e5b8-40f6-955a-801f734ee813" /> <br>
+
+
+PROGRAM'S PUML DIAGRAM: 
+
+<img width="884" height="539" alt="OOP DIAGRAM FINAL" src="https://github.com/user-attachments/assets/26b39ac0-e089-461e-90d2-638d262574e9" />
 
 
 
