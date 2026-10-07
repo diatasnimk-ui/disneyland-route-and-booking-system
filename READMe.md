@@ -12,7 +12,7 @@ A console-based Java application for planning a day-trip at Disneyland Paris. It
 - [Database Design](#database-design)
 - [Database in Action](#database-in-action)
 - [Program Design (UML)](#program-design-uml)
-- [Getting Started](#getting-started)
+- [Running the Project](#running-the-project)
 - [Future Improvements](#future-improvements)
 
 ## Features
