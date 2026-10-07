@@ -55,6 +55,10 @@ Route consists of list of rides to go through as reference points.
 
 <img width="422" height="229" alt="Route finding output" src="https://github.com/user-attachments/assets/4e8252f5-afc8-4215-9e6e-dab99933e8f2" />
 
+### Route Finding works both ways!
+
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/6f12ccd5-e12b-4fee-93e3-d8d1431dc21b" />
+
 ## How Route Finding Works
 
 The park is modeled as a weighted graph: each attraction is a node and each walkable path between attractions is an edge weighted by distance in meters. Dijkstra's algorithm then finds the lowest-cost path from the start attraction to the destination.
@@ -99,9 +103,17 @@ Each table is shown before and after an operation in the app.
 |---|---|
 | <img width="100%" alt="Purchase table before" src="https://github.com/user-attachments/assets/49e17c49-11b5-44de-92e3-da249da1deac" /> | <img width="100%" alt="Purchase table after" src="https://github.com/user-attachments/assets/f976c92f-e5b8-40f6-955a-801f734ee813" /> |
 
+### Review table
+| Before | After |
+|---|---|
+| <img width="937" height="268" alt="image" src="https://github.com/user-attachments/assets/b403dbc0-a2a9-4f80-a92b-76d23fbb5bf6" /> | <img width="922" height="292" alt="image" src="https://github.com/user-attachments/assets/a58aee6b-68d6-4bf3-bfe6-8925cf3482a7" /> |
+
+
+
 ## Program Design (UML)
 
 <img width="884" height="539" alt="UML class diagram" src="https://github.com/user-attachments/assets/26b39ac0-e089-461e-90d2-638d262574e9" />
+
 
 ## Running the Project
 
